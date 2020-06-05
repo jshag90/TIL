@@ -1,0 +1,15 @@
+아이오닉 앱 스크립트
+아이오닉 앱을 빠르게 돌릴 수 있도록 도와준다.
+npm install @ionic/app-scripts@latest --save-dev
+
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule, ErrorHandler } from '@angular/core';
+import { HttpModule } from '@angular/http';
+...
+  imports: [
+    BrowserModule,
+    HttpModule,
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
+  ],
+...
