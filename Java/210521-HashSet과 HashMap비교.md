@@ -44,6 +44,14 @@
 
   <img src="https://techmastertutorial.in/images/java/collections/HashMap_Orchestration.png" alt="HashMap.png" style="zoom:50%;" />
 
+**6) 해시맵과 해시테이블**
+
+- Hashtable thread safe하지만 속도 측면에서는 HashMap보다 느림
+- HashMap은 순회를 위해 Fail-Fast Iterator 반환, HashTable은 Enumeration를 반환
+- 둘다 기본적인 개념과 사용하는 방법은 동일
+
+
+
 [해시셋, hash 개념 정리]  https://st-lab.tistory.com/240
 
 [해시셋, 해시맵 비교] https://postitforhooney.tistory.com/entry/JavaHashSet%EA%B3%BC-HashMap
